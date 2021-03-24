@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>PIGMY COLLECTION SYSTEMS</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Google font apis's -->
+		<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+		<!-- CSS for navigation bar  -->
+		<link rel="stylesheet" href="nav.css">
+		<!-- WickedCSS framework for animations -->
+		<link rel="stylesheet" href="wickedcss.min.css">
+		<!-- icon for nav bar taken from linearIcons framework -->
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+		<link rel="stylesheet" href="main.css" />
+		
+
+		
+	</head>
+	<body>
+		<div class="overlay">
+			<header>
+				<div class="brand-box">
+				     <img src="logo.png" alt="logo"  width="128" height="128">
+				
+				</div>
+
+				<div class="container">
+					<div class="header-wrap">
+						<div class="header-top d-flex justify-content-between align-items-center">
+							<div class="logo">
+								<a href="index.html"><img src=# alt=""></a>
+							</div>
+							<div class="main-menubar d-flex align-items-center">
+								<nav class="hide">
+									<div class="ns">
+										<a href="main.html">HOME</a>
+									
+										<a href="#">ABOUT</a>
+										<a href="E:\DBMS MINI PROJECT\contact\contact.html">CONTACT US</a>
+									</div>
+								</nav>
+								<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</header>
+			<div class="motto">
+					<h1 class="heading-primary">
+						<span class="heading-primary-main"><strong>PIGMY PRO</strong></span>
+						<div class="fadeIn"><span class="heading-primary-sub">Test the taste of saving money</span></div>
+					</h1>
+						<div class="dropdown">
+										<button class="dropbtn">LOGIN AS
+										<i class="fa fa-caret-down"></i>
+										</button>
+										<div class="dropdown-content">
+											<a href="E:\DBMS MINI PROJECT\adminlogin\admin.html">ADMIN</a>
+											<a href="E:\DBMS MINI PROJECT\agentlogin\agent.html">AGENT</a>
+										</div>
+									</div>
+			</div>
+		</div>
+		<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

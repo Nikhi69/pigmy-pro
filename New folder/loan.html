@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Loan Details</title>
+<link href="style4.css" rel="stylesheet" type="text/css">
+</head> 
+<body>
+	<header>
+		<div class="brand-box">
+				     <img src="logo.png" alt="logo"  width="128" height="128">
+				
+				</div>
+		<div class="row";>
+		<ul class="main-nav">
+			<li ><a href="">HOME</a></li>
+			<li><a href="">AGENTS</a></li>
+			<li><a href="">OFFICE</a></li>
+			<li><a href="">CUSTOMERS</a></li>
+			<li><a href="">NOMINEES</a></li>
+			<li><a href="">ACCOUNTS</a></li>
+			<li class="active"><a href="">LOAN</a></li>
+			
+		
+		</div>
+		<div class="form-wrap">
+        
+            <form action="loan.php" method="POST">
+            
+                <h1>Add Details</h1>
+                <input type="text" name='LOAN_NUM' placeholder="Loan-Number">
+                <input type="text" name='LOAN_TYPE' placeholder="Loan-Type">
+                <input type="text" name='LOAN_AMOUNT' placeholder="Loan-Amount">
+                <input type="text" name='INTEREST' placeholder="Interest"> 
+                <input type="text" name='SANCT_DATE' placeholder="Sanction-Date">
+                <input type="text" name='PERIOD' placeholder="Period"> 
+                <input class="button" type="submit" name="Submit"value="Submit">
+            
+            </form>
+        
+        </div>
+    
+
+		
+	</header>
+</body>
+</html>

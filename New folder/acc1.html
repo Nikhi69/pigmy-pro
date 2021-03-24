@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Account Details</title>
+<link href="acct.css" rel="stylesheet" type="text/css">
+</head> 
+<body>
+	<header>
+		<div class="brand-box">
+				     <img src="logo.png" alt="logo"  width="128" height="128">
+				
+				</div>
+		<div class="row">
+		<ul class="main-nav">
+			<li ><a href="agdash.html">HOME</a></li>
+			<li><a href="cust1.html">CUSTOMERS</a></li>
+			<li><a href="nom1.html">NOMINEES</a></li>
+			<li class="active"><a href="acc1.html">ACCOUNTS</a></li>
+			
+			
+		
+		</div>	</header>
+		<div class="form-wrap">
+        
+            <form action="acct.php" method="POST">
+            
+                <h1>Add Details</h1>
+                <input type="text" name='ACCT_NUM' placeholder="Account-Number">
+                <input type="text" name='ACCT_TYPE' placeholder="Account-Type">
+                <input type="text" name='CREDIT' placeholder="Credit">
+                <input type="text" name='DEBIT' placeholder="Debit">
+             
+                <input class="button" name='Submit' type="submit" value="Submit">
+            
+            </form>
+        
+        </div>
+    
+
+		
+
+</body>
+</html>
